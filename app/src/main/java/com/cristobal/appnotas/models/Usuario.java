@@ -1,5 +1,7 @@
 package com.cristobal.appnotas.models;
+import com.orm.dsl.Table;
 
+@Table
 public class Usuario {
     private Long id;
     private String fullname;
@@ -10,8 +12,7 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(Long id, String fullname, String user, String email, String password) {
-        this.id = id;
+    public Usuario( String fullname, String user, String email, String password) {
         this.fullname = fullname;
         this.user = user;
         this.email = email;

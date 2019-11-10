@@ -14,7 +14,7 @@
         android:textSize="20sp"
         android:text="Usuario"/>
 
-    <EditText
+        <EditText
         android:id="@+id/username_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
